@@ -1,4 +1,7 @@
-# Bienvenido
+<h1 align="center">
+Bienvenido
+</h1>
+
 
 # Git y GitHub 
 
@@ -40,24 +43,33 @@ Supongamos situaciones críticas en un ambiente básico laboral
 > git config --global user.email "juan@topos.com.mx"
 
 - Empezaste un proyecto
+
 > git init
+
 - Escribiste un nuevo archivo, una clase, una interfaz, un lo que sea
+
 > git add <nombre_del_archivo>
+
 - No tengo idea que esta pasando
+
 > git status
+
 - ¿Escribiste varios y quieres meterlos todos de cajón?
+
 > git add .  
 > git add -a 
+
 - Oops, no debiste colocar el archivo "ClaseSuperPrivada.cs" 
+
 > git rm --cached <nombre_del_archivo>
 
+<p align="justify">
 Ahora sí, cuando tengas todos tus archivos en el stage
-Espera ¿que es el stage?
-Nada, sencillo, te lo pongo facil
-Imagina que te vas a cambiar de casa, el stage es el camión que te ayuda a
-subir todos los muebles; tu decides cuales se quedan y cuales se van.
-Cuando ejecutas un commit, el camión se va con todo y muebles. 
-Eso es un stage, un camión (no técnicamente, pero ya sabes, es algo así)
+Espera ¿que es el stage? Nada, sencillo, te lo pongo facil
+Imagina que te vas a cambiar de casa, el stage es el camión que te ayuda a subir todos los muebles; tu decides cuales se quedan y cuales se van.
+Cuando ejecutas un commit, el camión se va con todo y muebles. Eso es un stage, un camión (no técnicamente, pero ya sabes, es algo así)
+</p>
+
 
 
 Ahora, un commit sería decirle al conductor del camión: "hey, llévate los muebles ya"
@@ -95,11 +107,14 @@ Bien, haz hecho unos que otros commits, haz realizado ya muchos, de hecho
 Renombra las palabras pick por reword y cambia el mensaje del commit  
 Si tienes un editor, editalo y cierralo, veras reflejado los cambios en el CMD  
 
-- Oye, y eso del "gitignore"  
+
+<p align="justify">
+- ¿Oye, y eso del "gitignore"?  
 El gitignore es un archivo que forma o no, parte de Git, y es donde tu escribes lo que quieres que Git IGNORE y no tengas problemas a la hora 
 de agregarlo al staged area. Aqui suelen ir archivos binarios, ejecutables, algunas claves, tokens, documentos, builds, IDE settings, paths, etc.  
 TU puedes agregar lo que quieras, si no quieres darle seguimiento a "ClaseNadaImportante.java"  
-solo abre el gitignore en el bloc de notas, agregalo en una linea y voala...  Si tu gitignore no existe, agregalo manualmente
+solo abre el gitignore en el bloc de notas, agregalo en una linea y voala...  Si tu gitignore no existe, agregalo manualmente</p>
+
 
 > [Mac/Linux] touch .gitignore  
 > [Windows] cd> .gitignore (o bien utiliza el Git Bash haciendo clic derecho en tu ratón)
