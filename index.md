@@ -3,11 +3,14 @@
 # Git y GitHub 
 
 ## ¿Qué es Git?
-
+<p align="justify"> 
 Git es un sistema de control de versiones en forma local; Git es muy útil debido a su simpleza y su gran potencial; la pregunta  
 que todos nos hacemos es ¿para qué me sirve usar Git? Y la respuesta es aún mejor; Git es tu salvador ya que con él podrás controlar  
 cada detalle y cada versión de cualquier cosa que hagas; ya sean programas, documentos, presentaciones, cualquier cosa  a la que te  
 dediques. Git NO es lo mismo que GitHub NO debes confundirlos.
+</p>
+
+<p align="justify"></p>
 
 ## ¿Qué es GitHub?
 
@@ -18,13 +21,15 @@ es que es en línea y que muchas personas pueden acceder a tu ''almacén'' para 
 
 ## ¿Que ventajas tiene usar estas dos herramientas?
 
-No voy a confundirte más, te voy a poner un ejemplo práctico: supongamos que el día de hoy el gerente solicita un sistema y lo terminas en una semana;  
+<p align="justify">No voy a confundirte más, te voy a poner un ejemplo práctico: supongamos que el día de hoy el gerente solicita un sistema y lo terminas en una semana;  
 le vas presentando los cambios (sin guardar) al gerente y al final de la semana él los aprueba y tu quedas tan tranquilo. Sin embargo, el lunes por la mañana  
 el mismo gerente te solicita cambiar una parte del programa, ya que lo pensó  bien y realmente no le gustó el diseño final. Sin Git, tu tienes que regresar y borrar esas lineas de código manualmente e incluso podrías haber olvidado que habías escrito o qué es lo que tienes que borrar.  
 En un ambiente laboral, son miles y miles de líneas ¿ya estas imaginando lo que vas a tardar cierto?  
 Con Git, solamente hubieras tenido que ejecutar un par de comandos y voalá, viaje en el tiempo.  
 ¿Usarás Git de ahora en adelante?
 Sí, leíste bien, con Git se viaja en el tiempo; claro, siempre y cuando sepas utilizarlo correctamente.
+</p>
+
 
 ## Basta de trucos, enséñame Git y cómo utilizar Github
 
@@ -105,6 +110,7 @@ solo abre el gitignore en el bloc de notas, agregalo en una linea y voala...  Si
 
 ---  
 
+<p align="justify">
 Hasta aquí, estarías bien preparado para utilizar Git, mas NO estas utilizando GitHub  
 Si solo deseas controlar tu programa o archivos en tu PC, basta con quedarte aquí, te lo aseguro.  
 Sin embargo, es escencial utilizar GitHub  
@@ -115,5 +121,6 @@ a trabajar en equipo, y si por azares del destino, Juanito hizo algo que no deb�
 eliminarlo, puedes pedir que lo modifiquen, y lo mejooooooor de todo... las ramas! Con las ramas eres el  
 maestro del tiempo y de los espacios, puedes tener mil distintas ramas de un solo programa y cuando decidas  
 que lo que se haga en esas ramas es correcto, fusionarlas  
+</p>
 
 ---  
